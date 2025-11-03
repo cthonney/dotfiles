@@ -1,0 +1,28 @@
+{
+    "[ruby]": {
+        "editor.defaultFormatter": "Shopify.ruby-lsp",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+        "editor.rulers": [
+            120
+        ],
+        "editor.semanticHighlighting.enabled": true
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultLocation": "editor",
+    "workbench.colorTheme": "Solarized Light",
+    "files.autoSave": "afterDelay",
+    "git.enableSmartCommit": true,
+    "window.zoomLevel": -1,
+    "security.promptForLocalFileProtocolHandling": false,
+    "geminicodeassist.project": "astute-post-cf3h4",
+    "diffEditor.codeLens": true,
+    "remote.defaultExtensionsIfInstalledLocally": [],
+    "geminicodeassist.inlineSuggestions.enableAuto": true,
+    "git.confirmSync": false
+}

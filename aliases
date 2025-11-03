@@ -1,0 +1,33 @@
+# Get External IP / Internet Speed
+alias myip="curl https://ipinfo.io/json" # or /ip for plain-text ip
+alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -"
+
+# Quickly serve the current directory as HTTP
+alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
+
+# Function and alias for git add, commit, push
+function lazygit() {
+    git add .
+    git commit -a -m "$1"
+    git push
+}
+
+alias acp=lazygit
+
+function lazygitlight() {
+    git add .
+    git commit -a -m "$1"
+}
+
+alias acl=lazygitlight
+
+function update_upgrade_ar_snap {
+    sudo apt update
+    sudo apt upgrade -y
+    sudo apt autoremove -y
+    sudo snap refresh
+}
+
+alias updateflash=update_upgrade_ar_snap
+
+alias updatei="~/code/cthonney/script-perso/update-all.sh"
